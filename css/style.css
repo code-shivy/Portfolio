@@ -245,10 +245,11 @@ textarea:focus{
 }
 
 .assets-side img{
-    width:468px;
-    position:relative;
-    left:70%;
-    right:70%;
+    /*width:490px;                    //width of 510 is applied
+    height:500px;*/
+    position:absolute;
+    left:76%;
+    right:10%;
     transform:translateX(-70%);
 }
 
@@ -284,7 +285,7 @@ textarea:focus{
     border-radius: 50%;
     background-color: #f85959;
     box-shadow: 0 .2rem .7rem rgba(248, 89, 89, .85);
-    position:absolute;
+    position: absolute;       /*changed*/
     top:40%;
     left:48.5%;
     transform:translate(100%);
@@ -293,6 +294,8 @@ textarea:focus{
     margin-top:12px;
     text-align:center;
     cursor:pointer;
+    left: 551px;
+    top:350px;
 }
 
 .modal{
@@ -355,4 +358,4 @@ textarea:focus{
 }
 
 
-paused at 22:42 https://www.youtube.com/watch?v=72tEphK0WAU
+/*paused at 22:42 https://www.youtube.com/watch?v=72tEphK0WAU*/
