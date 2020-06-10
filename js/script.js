@@ -49,17 +49,13 @@ function handleAnimation(){
 
 
 logo.addEventListener('click',function(){
-debugger;
 handleOpacity(main,about,skills,contact);
 handleAnimation(mainH1,mainH12,mainPara,mainAnker);
 })
-
-
-aboutLink.addEventListener('click',function(){
+aboutLink.addEventListener('click', function(){
     handleOpacityabout(about,main,skills,contact);
     handleAnimation(aboutH1,aboutPara,aboutAnker);
 })
-
 skillsLink.addEventListener('click',function(){                     
     handleOpacity(skills,main,about,contact);
     handleAnimation(skillsH1,skillsPara,skillsCard);
