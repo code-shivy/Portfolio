@@ -1,6 +1,6 @@
 //grabbing all links
 let logo = document.querySelector("#logo");
-let aboutLink=document.querySelector("#aboutLink");
+let aboutLink = document.querySelector("#aboutLink");
 let skillsLink = document.querySelector("#skillsLink");
 let contactLink = document.querySelector("#contactLink");
 
@@ -53,7 +53,7 @@ handleOpacity(main,about,skills,contact);
 handleAnimation(mainH1,mainH12,mainPara,mainAnker);
 })
 aboutLink.addEventListener('click', function(){
-    handleOpacityabout(about,main,skills,contact);
+    handleOpacity(about,main,skills,contact);
     handleAnimation(aboutH1,aboutPara,aboutAnker);
 })
 skillsLink.addEventListener('click',function(){                     

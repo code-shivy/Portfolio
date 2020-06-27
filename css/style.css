@@ -128,7 +128,7 @@ h1:nth-child(2){
 
 .skills-card{
     display:flex;
-    flex-wrap=wrap;
+    flex-wrap: wrap;
     text-align: center;
     max-width: 700px;
 }
@@ -245,11 +245,15 @@ textarea:focus{
 }
 
 .assets-side img{
-    /*width:490px;                    //width of 510 is applied
-    height:500px;*/
-    position:absolute;
-    left:76%;
-    right:10%;
+    /* /*width:490px;                    //width of 510 is applied */
+    /* height:500px;*/ 
+    /* position:absolute; */
+    /* left:76%; */
+    /* right:10%; */
+	width:530px;                  
+    position:relative; 
+    left:70%; 
+    right:70%;
     transform:translateX(-70%);
 }
 
